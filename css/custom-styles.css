@@ -1,0 +1,121 @@
+.whatsapp {
+    position: fixed;
+    right: 25px;
+    bottom: 95px;
+    background-color: #3c763d;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+    display: block;
+}
+
+.whatsapp i {
+    line-height: 60px;
+    margin-left: 8px;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.hidden-paragraph, .hidden-title {
+    left: -9999px;
+    position: absolute;
+    text-indent: -9999px;
+}
+
+.gray-text {
+    color: #7f7f7f;
+}
+
+.home-content {
+    background-color: #eeeded;
+    padding-bottom: 40px;
+}
+
+.home-content .box h3, .media p.color2 {
+    margin-top: 0;
+}
+
+.banner_content, .more-btn {
+    margin-bottom: 2em;
+}
+
+.banner_content .media h3 {
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+
+.banner_content .media p {
+    font-size: 14px;
+}
+
+.video-responsive {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.overview-content ul,
+.topics-content ul {
+    margin: 20px 0 15px 20px;
+    list-style: disc;
+}
+/* Mobile devices (phones, 320px to 768px) */
+@media (max-width: 767px) {
+    .logo-menu {
+        display: flex;
+        flex-direction: column;
+        height: 120px;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .logo-menu {
+        display: flex;
+        flex-direction: column;
+        height: 110px;
+    }
+    .content-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .description {
+        max-width: 600px;
+    }
+}
