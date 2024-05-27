@@ -2,11 +2,11 @@
 
 <p>
   Visit Live Website:&nbsp;
-  <a href="https://qbixmex.github.io/omega-records/" target="_blank">
+  <a href="https://qbixmex.github.io/omega-records/">
     https://qbixmex.github.io/omega-records/
   </a>
-</a>
-
-<a href="https://qbixmex.github.io/omega-records/" target="_blank">
+</p>
+<br />
+<a href="https://qbixmex.github.io/omega-records/">
   <img src="./imagenes/captures/01-home.jpg" />
 </a>
