@@ -1,18 +1,5 @@
-.whatsapp {
-    position: fixed;
-    right: 25px;
-    bottom: 95px;
-    background-color: #3c763d;
-    border-radius: 50px;
-    width: 60px;
-    height: 60px;
-    font-size: 50px;
-    display: block;
-}
-
-.whatsapp i {
-    line-height: 60px;
-    margin-left: 8px;
+.current {
+    color: #ffa500 !important;
 }
 
 .block {
