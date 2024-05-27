@@ -11,7 +11,14 @@
   <link rel="alternate" hreflang="mx" href="http://www.omegarecords.com.mx" />
   <link href='https://fonts.googleapis.com/css?family=Comfortaa:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
-  <link rel="stylesheet" href="./css/styles.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/skeleton.css">
+	<link rel="stylesheet" href="./css/superfish.css">
+	<link rel="stylesheet" href="./css/touchTouch.css">
+	<link rel="stylesheet" href="./css/theme.style.css">
+	<link rel="stylesheet" href="./css/font-awesome-5.min.css">
+	<link rel="stylesheet" href="./css/custom-styles.css">
   <style>
     .description { margin: 20px 0; }
     .text-warning { color: #c83939; }
@@ -44,7 +51,7 @@
     </div>
   </header>
 
-  <div class="div-content" style="min-height: 500px;">
+  <div class="div-content">
     <!-- .container -->
     <div class="container">
       <h2 class="v2 text-center">Cursos Presenciales</h2><br>
@@ -98,35 +105,37 @@
 
   <footer>
 		<div class="footer_section">
-			<section class="container_24">
-				<div class="grid_12">
-					<section class="text-white" style="display: flex; align-items: center; gap: 8px; margin: 20px 0;">
-						<i class="fa fa-map fa-2x"></i>
-						<span class="text-white" style="font-size: 18px;">Barcelona 2583, Guadalajara, Jalisco, México</span>
-					</section>
-					<section class="text-white" style="display: flex; align-items: center; gap: 8px; margin: 20px 0;">
-						<i class="fa fa-phone fa-2x "></i>
-						<span class="text-white" style="font-size: 26px;">331 498 2299</span>
-					</section>
-				</div>
-				<div class="grid_12">
-					<section style="height: 80px; margin: 20px 0; display: flex; align-items: center; justify-content: flex-end; gap: 8px;">
-						<a href="https://www.facebook.com/OmegaRecordsMexico/" style="color: white; font-size: 20px;" title="Facebook" target="_blank">
-							<i class="fab fa-facebook fa-2x"></i>
-						</a>
-						<a href="https://twitter.com/omega_records" style="color: white; font-size: 20px;" title="Twitter" target="_blank">
-							<i class="fab fa-twitter fa-2x"></i>
-						</a>
-						<a href="https://www.youtube.com/user/omegarecordsgdl" style="color: white; font-size: 20px;" title="Youtube" target="_blank">
-							<i class="fab fa-youtube fa-2x"></i>
-						</a>
-						<a href="https://soundcloud.com/omegarecordsestudio" style="color: white; font-size: 20px;" title="Soundcloud" target="_blank">
-							<i class="fab fa-soundcloud fa-2x"></i>
-						</a>
-					</section>
-				</div>
-			</section>
-		</div>
+			<div class="container">
+				<section class="row">
+					<div class="col-xs-12 col-lg-6">
+						<section class="footer-address">
+							<i class="fa fa-map fa-2x"></i>
+							<span>Barcelona 2583, Guadalajara, Jalisco, México</span>
+						</section>
+						<section class="footer-phone">
+							<i class="fa fa-phone fa-2x"></i>
+							<span>331 498 2299</span>
+						</section>
+					</div><!-- .col -->
+					<div class="col-xs-12 col-lg-6">
+						<section class="footer-social_media">
+							<a href="https://www.facebook.com/OmegaRecordsMexico/" target="_blank">
+								<i class="fab fa-facebook fa-2x"></i>
+							</a>
+							<a href="https://twitter.com/omega_records" target="_blank">
+								<i class="fab fa-twitter fa-2x"></i>
+							</a>
+							<a href="https://www.youtube.com/user/omegarecordsgdl" target="_blank">
+								<i class="fab fa-youtube fa-2x"></i>
+							</a>
+							<a href="https://soundcloud.com/omegarecordsestudio" target="_blank">
+								<i class="fab fa-soundcloud fa-2x"></i>
+							</a>
+						</section>
+					</div><!-- .col -->
+				</section><!-- .row -->
+			</div><!-- .container -->
+		</div><!-- .footer_section -->
 	</footer>
 </body>
 

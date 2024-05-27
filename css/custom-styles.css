@@ -94,6 +94,33 @@
     margin: 20px 0 15px 20px;
     list-style: disc;
 }
+.footer-address,
+.footer-phone {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.footer-address {
+    margin-bottom: 20px;
+}
+.footer-address span {
+    font-size: 18px;
+}
+.footer-phone span {
+    font-size: 26px;
+}
+.footer-social_media {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+}
+.footer-social_media a {
+    color: white;
+    font-size: 20px;
+}
 /* Mobile devices (phones, 320px to 768px) */
 @media (max-width: 767px) {
     .logo-menu {

@@ -202,9 +202,11 @@ body {
 
 .div-content {
   width: 100%;
+  min-height: calc(100vh - 212px);
   margin: 0 auto;
   background: #eeeded;
-  padding-top: 0px; }
+  padding-top: 0px;
+}
 
 .txt_col1 {
   position: relative;
@@ -512,9 +514,9 @@ a {
 
 .footer_section {
   width: 100%;
-  padding-top: 1px;
-  padding-bottom: 25px;
-  background: #F18A00; }
+  padding: 20px 0;
+  background: #F18A00;
+}
 
 .footer_section br {
   display: none; }
