@@ -1,3 +1,3 @@
-# Omega Records Studio Recording Website
+# Omega Records Recording Studio Website
 
 <img src="./imagenes/captures/01-home.jpg" />
